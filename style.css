@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+  }
+
+  body {
+      background-color: green;
+  }
+
+.grid {
+    display: grid;
+    grid-template-columns: 0;
+    grid-template-rows: 0;
+    width: 960px;
+    height: 500px;
+    background-color: grey;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Comic Neue', cursive;
+    color: white;
+}
+
+.clear-btn {
+    display: block;
+    margin: auto;  
+}
